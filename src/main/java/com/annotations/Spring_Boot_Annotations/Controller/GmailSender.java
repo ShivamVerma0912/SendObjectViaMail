@@ -19,7 +19,7 @@ public class GmailSender {
         props.put("mail.smtp.starttls.enable","true");
 
         String username = "shivamverma.op@gmail.com";
-        String password="skdxinosndbdxdvr";         //enter password
+        String password="";         //enter password
         //session
         Session session = Session.getInstance(props, new Authenticator(){
             @Override
